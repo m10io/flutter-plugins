@@ -88,7 +88,7 @@ static const int SOURCE_GALLERY = 1;
       }
       case SOURCE_GALLERY:
         if (usePhaAsset) {
-          [self checkPhotoAuthorization]
+          [self checkPhotoAuthorization];
           break;
         }
         [self showPhotoLibrary];
